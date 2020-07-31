@@ -1,0 +1,21 @@
+.more{
+	width:380px;
+	height:40px;
+	margin:0 auto;
+	margin-top:14px;
+	text-align: center;
+	color:#a1a1a1;
+	border:1px solid #e1e1e1;
+}
+.more .right{
+	display:none;
+}
+.more:hover{
+	background:#0d8f86;
+	color:#fff;
+}
+.more:hover .right{
+	display:block;
+	line-height:40px;
+	color:#fff;
+}

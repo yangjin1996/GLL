@@ -1,0 +1,34 @@
+
+.nav{
+	width:1200px;
+	height:120px;
+	margin:0 auto;
+}
+.nav a img{
+	float:left;
+	margin-top:40px;
+}
+.nav ul{
+	float:right;
+}
+.nav ul li{
+	list-style:none;
+	float:left;
+	line-height:120px;
+	margin-left:60px;
+}
+.nav a:hover{
+	border-bottom:2px solid #0d8f86;
+	color:#0d8f86;
+}
+.nav ul li.on a{
+	border-bottom:2px solid #0d8f86;
+	color:#0d8f86;
+}
+.nav a{
+	text-decoration:none;
+	font-size:16.16px;
+	font-family:"微软雅黑";
+	color:#999999;
+	padding: 5px 0;
+}

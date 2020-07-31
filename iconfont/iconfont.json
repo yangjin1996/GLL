@@ -1,0 +1,44 @@
+{
+  "id": "1566326",
+  "name": "甘露林",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "339514",
+      "name": "QQ",
+      "font_class": "icon",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "429499",
+      "name": "微信",
+      "font_class": "logo-wechat",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "978353",
+      "name": "新浪微博",
+      "font_class": "weibo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "2668432",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "7720065",
+      "name": "箭头",
+      "font_class": "jiantou1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}

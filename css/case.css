@@ -1,0 +1,139 @@
+
+.banner>.img{
+	width:100%;
+}
+.box{
+	width:1200px;
+	height:97px;
+	margin:0 auto;
+	margin-top:37px;
+}
+.box p{
+	margin-left:10px;
+	color:#999;
+}
+.box p span a{
+	color:#999;
+}
+.box p .on a{
+	color:#0d8f86;
+}
+.cases{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+	
+}
+.cases>ul>li{
+	float: left;
+	width:580px;
+	margin:0 10px;
+	margin-bottom:20px;
+	position: relative;
+}
+.cases>ul>li>img{
+	width:100%;
+}
+.cases li>div{
+	width:580px;
+	height:380px;
+	background-color:rgba(255,255,255,0.7);
+	position: absolute;
+	left:0px;
+	top:0px;
+	text-align: center;
+	cursor: pointer;
+	display:none;
+}
+.cases>ul>li>div>h4{
+	color:#666;
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 128px;
+}
+.cases>ul>li>div>h5{
+	color:#666;
+	font-size: 14px;
+	margin:0 44px;
+	display: inline-block;
+	padding-top: 36px;
+}
+.cases>ul>li:hover div{
+	display:block;
+}
+.button{
+	width:1200px;
+	margin:0 auto;
+	margin-top:23px;
+}
+.button a,.button p{
+	display:inline-block;
+}
+.button a{
+	width:80px;
+	height:30px;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	background-color:#cccccc;
+}
+.button>.bo{
+	padding-left:350px;
+	margin-top:44px;
+	height:30px;
+}
+.button>.bo>.on{
+	color:#fff;
+	height:28px;
+	background-image:url(../images/water.png);
+	background-position: 2px 0;
+	background-repeat:no-repeat;
+	background-size:55px;
+}
+.button>.bo>b{
+	display:inline-block;
+	font-weight: 100;
+	font-family: "微软雅黑";
+	font-family: Arial;
+	font-size: 12px;
+	color:#999;
+	width:20px;
+	line-height:28px ;
+	text-align: center;
+	margin: 0 10px;
+}
+.button>.bo>i{
+	height:28px;
+	width:20px;
+	color:#999;
+	line-height:28px ;
+	text-align: center;
+	
+}
+.button>.bo input{
+	height: 28px;
+	width: 28px;
+	margin:0 7px;
+	box-sizing: border-box;
+}
+.button>.bo>div{
+	display:inline-block;
+	color:#999999;
+	margin:0 10px;
+	height:30px;
+}
+.end{
+	float:left;
+	margin-top: 80px;
+	height: 70px;
+	border-top: 1px solid #b2b2b2;
+	width: 100%;
+	text-align: center;
+}
+.end span{
+	margin-right: 50px;
+	line-height: 70px;
+	font-size: 12px;
+	color: #b2b2b2;
+}

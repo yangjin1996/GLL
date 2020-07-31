@@ -1,0 +1,148 @@
+.nav{
+	width:1200px;
+	height:120px;
+	margin:0 auto;
+}
+.nav a img{
+	float:left;
+	margin-top:40px;
+}
+.nav ul{
+	float:right;
+}
+.nav ul li{
+	list-style:none;
+	float:left;
+	line-height:120px;
+	margin-left:60px;
+}
+.nav a:hover{
+	border-bottom:2px solid #0d8f86;
+	color:#0d8f86;
+}
+.nav ul li.on a{
+	border-bottom:2px solid #0d8f86;
+	color:#0d8f86;
+}
+.nav a{
+	text-decoration:none;
+	font-size:16.16px;
+	font-family:"微软雅黑";
+	color:#999999;
+	padding: 5px 0;
+}
+.banner>img{
+	width:100%;
+}
+body>img{
+	width:100%;
+	margin-top:300px;
+}
+.box{
+	width:1200px;
+	height:99px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.box p{
+	margin-left:10px;
+	color:#999;
+}
+.box p span a{
+	color:#999;
+}
+.box p .on a{
+	color:#0d8f86;
+}
+/* 联系我们 */
+.contact{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+	margin-top:40px;
+	background-color:red
+	overflow:hidden;
+}
+.contact>ul{
+	overflow:hidden;
+	margin-top:20px;
+}
+.contact>ul>li{
+	float: left;
+	font-size: 16px;
+	color: #808080;
+	line-height: 32px;
+}
+.contact>ul>li.left{
+	margin-left: 116px;
+}
+.contact>ul>li.right{
+	margin-left: 224px;
+}
+.contact>ul>li h5{
+	font-size: 16px;
+	color: #666;
+	margin-bottom: 38px;
+}
+.contact>ul>li>a>span{
+	display: inline-block;
+	margin-top: 36px;
+	font-size: 30px;
+	color: #808080;
+	margin-left: 16px;
+}
+.contact>ul>.right>.data>input{
+	display: block;
+	border:none;
+	padding-left: 8px;
+	border-bottom: 1px solid #b2b2b2;
+	width: 382px;
+	height: 45px;
+}
+.contact>ul>.right>.data input:nth-child(8){
+	height: 64px;
+}
+.contact>ul>.right>.submit>p value{
+	color: #b2b2b2;
+}
+.contact>ul>.right>.submit input{
+	border: none;
+	height: 42px;
+	margin-top: 5px;
+	margin-right: 20px;
+	display: block;
+	width: 100%;
+	height: 40px;
+	color: #b2b2b2;
+	padding-left: 20px;
+	border: 1px solid #b2b2b2;
+	background-color: transparent;
+}
+.contact>ul>.right>.submit input placeholder{
+	margin-left: 5px;
+}
+.contact>ul>.right>.data>textarea{
+	width: 378px;
+	margin-top: 9px;
+	border: none;
+	border-bottom: 1px solid #b2b2b2;
+	color: #b2b2b2;
+	font-size: 12px;
+	resize: none;
+	font-family: "微软雅黑";
+	padding-left: 8px;
+}
+/* 结尾框 */
+.end{
+	margin-top:80px;
+	height: 70px;
+	border-top: 1px solid #b2b2b2;
+	width: 100%;
+	text-align: center;
+}
+.end span{
+	margin-right: 50px;
+	line-height: 70px;
+	font-size: 12px;
+	color: #b2b2b2;
+}

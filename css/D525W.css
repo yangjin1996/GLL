@@ -1,0 +1,152 @@
+.nav{
+	width:1200px;
+	height:120px;
+	margin:0 auto;
+}
+.nav a img{
+	float:left;
+	margin-top:40px;
+}
+.nav ul{
+	float:right;
+}
+.nav ul li{
+	list-style:none;
+	float:left;
+	line-height:120px;
+	margin-left:60px;
+}
+.nav a:hover{
+	border-bottom:2px solid #0d8f86;
+	color:#0d8f86;
+}
+.nav ul .on a{
+	border-bottom:2px solid #0d8f86;
+	color:#0d8f86;
+}
+.nav a{
+	text-decoration:none;
+	font-size:16.16px;
+	font-family:"微软雅黑";
+	color:#999999;
+	padding: 5px 0;
+}
+.banner-img{
+	width:100%;
+}
+.box{
+	width:1200px;
+	height:105px;
+	margin:0 auto;
+	margin-top:40px;
+}
+.box p{
+	color:#999;
+}
+.box p span a{
+	margin-bottom:76px;
+	color:#999;
+}
+.box p .center a{
+	color:#0d8f86;
+}
+.picture{
+	width:1200px;
+	overflow: hidden;
+	margin:0 auto;
+	text-align: center;
+}
+.picture h4{
+	font-size: 24px;
+	color:#666;
+	font-family: "微软雅黑";
+	margin-bottom:40px;
+}
+.parameter{
+	overflow: hidden;/* 
+	width:100%; */
+	border-top:1px solid lightgrey ;
+	border-bottom: 1px solid lightgrey ;
+	
+}
+.parameter>div.box1{
+	text-align: center;
+}
+.parameter h4{
+	display:inline-block;
+	font-size: 24px;
+	color:#666;
+	font-family: "微软雅黑";
+	margin:40px 0;
+}
+.parameter .data{
+	width:1200px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.parameter .data ul{
+	margin:0 auto;
+	display:inline-block;
+}
+.parameter .data ul.left{
+	display:inline-block;
+	margin-left:96px;
+	color:#666;
+	font-size: 16px;
+}
+.parameter .data ul.right{
+	display:inline-block;
+	margin-left:202px;
+	color:#666;
+	font-size: 16px;
+}
+.parameter .data li{
+	line-height: 58px;
+}
+.parameter .data .left li p{
+	width:64px;
+	display:inline-block;
+	margin-right:84px;
+}
+.parameter .data .right li p{
+	width:96px;
+	display:inline-block;
+	margin-right:82px;
+}
+.external{
+	border-top:1px solid lightgrey ;
+}
+.hot{
+	width:1200px;
+	overflow: hidden;
+	margin:0 auto;
+	text-align: center;
+}
+.hot h4{
+	font-size: 24px;
+	color:#666;
+	font-family: "微软雅黑";
+	margin-top:40px;
+	margin-bottom:100px;
+}
+.hot ul li{
+	display:inline-block;
+	text-align: center;
+}
+.hot ul li img.img2{
+	margin:0 233px;
+}
+.end{
+	margin-top: 138px;
+	height: 70px;
+	border-top: 1px solid lightgrey;
+	width: 100%;
+	text-align: center;
+}
+.end span{
+	margin-right: 50px;
+	line-height: 70px;
+	font-size: 12px;
+	color: #b2b2b2;
+}
+

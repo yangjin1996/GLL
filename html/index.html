@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="../css/currency.css">
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../iconfont/iconfont.css">
+		<link rel="stylesheet" href="../css/titles.css">
+		</style>
+	</head>
+	<body>
+		<!-- 引入导航窗格 -->
+		<iframe src="nav.html" width="100%" height="120"></iframe>
+		<!-- 轮播图 -->
+		<div class="adv" id="adv">
+			<ul>
+				<li class="active"><a href="javascript:"><img src="../images/banner2.jpg" alt=""></a></li>
+				<li><a href="javascript:"><img src="../images/banner1.jpg" alt=""></a></li>
+				<li><a href="javascript:"><img src="../images/banner3.jpg" alt=""></a></li>
+			</ul>
+			<a class="left"><span class="iconfont icon-jiantou1"></span></a>
+			<a class="right"><span class="iconfont icon-jiantou"></span></a>
+			<div class="list" id="list">
+				<span class="on"></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<!-- 产品中心 -->
+		<div class="products">
+			<h3 class="title">产品中心
+			<p>PRODUCTS</p></h3>
+			<ul>
+				<li><a href=""><img src="../images/product1.jpg" alt=""><p>RO纯水系列</p></a></li>
+				<li><a href=""><img src="../images/product2.jpg" alt=""><p>RO纯水系列</p></a></li>
+				<li><a href=""><img src="../images/product3.jpg" alt=""><p>RO纯水系列</p></a></li>
+				<li><a href=""><img src="../images/product4.jpg" alt=""><p>RO纯水系列</p></a></li>
+				<li><a href=""><img src="../images/product5.jpg" alt=""><p>RO纯水系列</p></a></li>
+				<li><a href=""><img src="../images/product6.jpg" alt=""><p>RO纯水系列</p></a></li>
+			</ul>
+			<a href="" class="more">MORE<span class="iconfont icon-jiantou"></span></a>
+		</div>
+		<div class="news">
+			<h3 class="title">新闻中心<p>NEWS</p></h3>
+			<ul>
+				<li class="news-left">
+					<h2>10-12<span>2018</span></h2>
+					<h4>让世界聆听我们的声音</h4>
+					<p>第四届全球净水产业生态峰会于10月12日在举行。众多机构的专家出席了会议，并分享了各国内净水行业生态健康发展的观点。 ...</p>
+					<span class="iconfont icon-jiantou"></span>
+				</li>
+				<li class="news-right">
+					<h2>04-09<span>2018</span></h2>
+				    <h4>节水护水管水，11市考核全优</h4>
+					<p>2017年度全国水资源管理体系进一步健全，水资源管理规范化水平明显提高，为我国经济社会发展提供了强有力的支撑...</p>
+					<span class="iconfont icon-jiantou"></span>
+				</li>
+			</ul>
+			<a href="" class="more">MORE<span class="iconfont icon-jiantou"></span></a>
+		</div>
+		<div class="about">
+			<div class="text">
+				<h3 class="title">关于我们<p>ABOUT US</p></h3>
+				<p>深圳市甘露霖净水设备有限公司是水处理设备及净水系列产工专业制造商，是集研发、生产、销售服务四位一体的大型高新技、企业。自2006年创立起，甘露霖秉持着质量为本、客户第一的”则，不断创新、锐意进取，现已与全球上百家企业建立了稳定的战略合作关系，产品远销数十个国家，广泛应用于商务写字楼、酒店宾馆、楼盘精装配套、以及广大普通家庭等用户。
+				</p>
+				<a href="" class="more">MORE<span class="iconfont icon-jiantou"></span></a>
+			</div>
+		</div>
+		<div class="contact">
+			<h3 class="title">联系我们<p>CONTACT US</p></h3>
+			<ul>
+				<li class="left">
+					<h5>深圳市甘露霖净水设备有限公司</h5>
+					<p>Address：广东省深圳市龙岗区坪地街道麻沙旭达产业园5栋6楼</p>
+					<p>Zipcode：101100</p>
+					<p>Tel：0755-840820</p>
+					<p>Mobile：13686859795</p>
+					<p>Email：79228276@qq.com</p>
+					<a href=""><span class="iconfont icon-logo-wechat"></span></a>
+					<a href=""><span class="iconfont icon-icon"></span></a>
+					<a href=""><span class="iconfont icon-weibo"></span></a>
+				</li>
+				<li class="right">
+					<form class="data">
+						<input type="text" placeholder="Name">
+						<input type="Emall" placeholder="Emall">
+						<input type="Tel" placeholder="Tel">
+						<textarea rows="5" cols="51" placeholder="Content"></textarea>
+					</form>
+					<form class="submit">
+						<P><input type="submit" value="SUBMIT"></P>
+					</form>
+				</li>
+			</ul>
+		</div>
+		<div class="end">
+			<span>Copyright(©)  2018 深圳市甘露霖净水设备有限公司</span>
+			<span>粤ICP备16026944号</span>
+		</div>
+	</body>
+	<script type="text/javascript">
+		var lis = document.querySelectorAll('.adv li');
+		var adv = document.getElementById('adv');
+		var left = adv.getElementsByClassName('left')[0];
+		var right = adv.getElementsByClassName('right')[0];
+		var list = document.getElementById('list');
+		var spans = list.getElementsByTagName('span');
+		var i = 0;
+		var time;
+		var ban = function(){
+			time = setInterval (function(){
+				lis[i].className = '';
+				spans[i].className = '';
+				i++;
+				if(i == 3){
+					i = 0;
+				}
+				lis[i].className = 'active';
+				spans[i].className = 'on';
+			},3000)
+		}
+		ban();
+		adv.onmouseover = function(){
+			clearInterval(time);
+		}
+		adv.onmouseleave = function(){
+			ban();
+		}
+		left.addEventListener('click',beforeTurn,false)
+		function beforeTurn(){
+			lis[i].className = '';
+			spans[i].className = '';
+			i--;
+			if(i == -1){
+				i = 2;
+			}
+			lis[i].className = 'active';
+			spans[i].className = 'on';
+		}
+		
+		right.addEventListener('click',nextTurn,false)
+		function nextTurn(){
+			lis[i].className = '';
+			spans[i].className = '';
+			i++;
+			if(i == 3){
+				i = 0;
+			}
+			lis[i].className = 'active';
+			spans[i].className = 'on';
+		}
+	</script>
+</html>
